@@ -1,0 +1,30 @@
+version = "1.0"
+
+[metadata]
+author_name = "ashay"
+difficulty = "easy"
+category = "creative"
+tags = ["comedy", "multi-agent", "llm-judge"]
+
+[verifier]
+timeout_sec = 300.0
+
+[verifier.env]
+GROQ_API_KEY = "${GROQ_API_KEY}"
+GOOGLE_API_KEY = "${GOOGLE_API_KEY}"
+
+[agent]
+timeout_sec = 300.0
+
+[agent.env]
+GROQ_API_KEY = "${GROQ_API_KEY}"
+GOOGLE_API_KEY = "${GOOGLE_API_KEY}"
+COMEDY_MODEL = "llama-3.1-8b-instant"
+
+[environment]
+build_timeout_sec = 300.0
+
+[environment.env]
+GROQ_API_KEY = "${GROQ_API_KEY}"
+GOOGLE_API_KEY = "${GOOGLE_API_KEY}"
+COMEDY_MODEL = "llama-3.1-8b-instant"
