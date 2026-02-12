@@ -1,0 +1,1 @@
+Designed AI agent evaluation benchmark using LLM-as-judge (Gemini) to score multi-agent conversations by implementing AutoGen GroupChat with custom routing and deploying parallel Harbor execution in Daytona containers.
