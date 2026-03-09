@@ -1,13 +1,10 @@
 I wanted to test if LLMs can actually be funny. So I built a benchmark for it.
 Most AI evals test reasoning or coding. Nobody tests humor. But humor is hard. It needs timing, personality, context, and knowing where the line is. You can't memorize your way through comedy.
 
+Here's what I built:
+I created ComedyBench - a multi-agent comedy battle where two AI comedians riff off each other in real time.
+
 Demo: https://drive.google.com/file/d/1_0B85GjBt7xw6mqklpSq_EvvbcCKRwN8/view?uuspdrive_link
-
-# ComedyBench
-
-Multi-agent stand-up comedy benchmark for LLMs. Two AI comedians battle on a user-chosen topic, moderated by a ToxicityChecker, scored by Gemini as LLM-as-judge.
-
-
 
 ## How It Works
 
